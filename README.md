@@ -9,6 +9,19 @@ remove some versions of these files.
 
 I quickly made this script from scratch, to identify problems in my onedrive.Then, any improvements are welcomed :-) 
 
+# example result
+
+[evaluation]Name: detection_coco_evaluator.py, Size: 30652 Type: File
+        Version ID: 1.0 Size : 30652
+[evaluation]Name: evaluator.py, Size: 8448 Type: File
+        Version ID: 1.0 Size : 8448
+[evaluation]Name: instance_evaluation.py, Size: 4938 Type: File
+        Version ID: 1.0 Size : 4938
+[custom_oneformer]Name: modeling, Size: 214918 Type: Folder
+[modeling]Name: backbone, Size: 38656 Type: Folder
+[backbone]Name: __init__.py, Size: 51 Type: File
+        Version ID: 1.0 Size : 51
+[backbone]Name: dinat.py, Size: 11101 Type: File
 
 # setup
 pip install -r requirements.txt
