@@ -29,6 +29,7 @@ pip install -r requirements.txt
 
 # Allowing the script to access your onedrive folder 
 To use this script, it will need to login to your onedrive account. That's a bit tricky...
+The login process uses interactivebrowser credential with help of your browser  . refs https://learn.microsoft.com/en-us/python/api/azure-identity/azure.identity.interactivebrowsercredential?view=azure-python0
 
 
 To achieve it , you will need to create an app in azure portal (now microsoft entra) to allow to login with your microsoft account 
