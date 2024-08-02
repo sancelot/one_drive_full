@@ -10,8 +10,13 @@ pip install -r requirements.txt
 
 
 # Allowing the script to access your onedrive folder 
-To use this script, you will need to create an app in azure portal (now microsoft entra) to allow to login with your microsoft account 
+To use this script, it will need to login to your onedrive account. That's a bit tricky...
+
+
+To achieve it , you will need to create an app in azure portal (now microsoft entra) to allow to login with your microsoft account 
 to access your onedrive 
+
+Define the auth reply   as http://localhost:8400 when creating the application
 
 When your app is created , you MUST fill in these variables in the script:
 * tenant_id : tenant id of your business id
