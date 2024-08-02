@@ -25,3 +25,6 @@ Define the auth reply   as http://localhost:8400 when creating the application
 When your app is created , you MUST fill in these variables in the script:
 * tenant_id : tenant id of your business id
 * client_id : (app id) in the script 
+
+You will need to allow these authorizations to the application:
+"User.Read","Files.Read","Files.Read.All"
