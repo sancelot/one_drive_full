@@ -6,7 +6,7 @@ This python script permits to identify problems in your onedrive folder when it 
 This script will list your onedrive folder content and computes size of each file, including size of versioned files 
 
 
-I quickly made this script from scratch, to identify problems in my onedrive.Then, any improvements are welcomed :-)
+I quickly made this script from scratch, to identify problems in my onedrive.Then, any improvements are welcomed :-) 
 
 
 # setup
