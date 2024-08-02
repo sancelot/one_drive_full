@@ -1,10 +1,11 @@
-# one_drive_full
+# Help to fix onedrive is full
 At time of writing, onedrive really sucks saying it is full, and provide no way to identify where your folder grows.
 
 This python script permits to identify problems in your onedrive folder when it says it is full (but apparently not)
 
 This script will list your onedrive folder content and computes size of each file, including size of versioned files 
-
+Once you identified the biggest files in your onedrive folder (including their revisions taking disk size), you will be able to 
+remove some versions of these files. 
 
 I quickly made this script from scratch, to identify problems in my onedrive.Then, any improvements are welcomed :-) 
 
